@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    text-rendering: optimizeLegibility;
+}
+
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/iphone.jpg);
+    background-size: cover; /* allow us to see the whole image */
+    background-position: center; /* center the background */
+    height: 80vh; /* setting the header image heigh to the full viewport*/
+    background-attachment: fixed;
+    
+}
+
+.row{
+    max-width: 1140px; /* over all width of the row */
+    margin: 0 auto; /** centering** top and bottom zero left and right auto meaning it should be even */ 
+}
+
+
+.main-header{
+    max-width: 1140px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.test{
+    color: green;
+}
+
+
+h1{
+    font-size: 300%;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 300
+}
+
+.main-header-button{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #ffb500;
+    border-radius: 10px;
+}
+
+p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 110%;
+}
