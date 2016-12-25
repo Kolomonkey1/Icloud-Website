@@ -1,5 +1,59 @@
+
+
 .main-header{
     background-image: url(header-iphone.jpeg);
     width: 100vh;
-    
+}
+
+h2{
+    font-family: 'Arimo', sans-serif;
+    font-size: 35px;
+    opacity: .8;
+}
+
+#section_heading{
+    text-align: center;
+}
+
+#section_iphone{
+    float: left;
+    font-size: 10px;
+    width: 20%;
+    height: auto;
+    padding-left: 16%;
+}
+
+.list_mark{
+    background-color: white;
+    width: auto;
+    height: 20px;
+    padding-right: 20px;
+}
+
+#section_list{
+    float: left;
+    font-size: 21px;
+    line-height: 36px;
+    list-style: none;
+}
+
+section{
+    width: 100%;
+    clear: left;
+}
+
+.text_container{
+    float: left;
+}
+.desc_img{
+    float: left;
+}
+.desc_heading{
+    float: left;
+    clear: right;
+}
+
+.desc_content{
+    float: left;
+    clear: left;
 }
